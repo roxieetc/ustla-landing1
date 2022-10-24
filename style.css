@@ -42,7 +42,7 @@ nav img {
 .main-content {
     display: flex;
     justify-content: center;
-    padding-block: 8rem;
+    padding-block: 5rem;
     margin-inline: 1rem;
 }
 
