@@ -31,6 +31,10 @@ button:hover {
     color: #B27247;
 }
 
+nav {
+    min-width: 103%;
+}
+
 nav img {
     padding-left: 2rem;
 }
@@ -164,5 +168,13 @@ form input {
 
     nav img {
         padding-left: 0px;
+    }
+
+    .hs-text p {
+        margin-right: 1rem;
+    }
+
+    .form-title {
+        font-size: 20px;
     }
 }
