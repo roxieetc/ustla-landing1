@@ -156,3 +156,13 @@ form input {
         margin-left: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .nav-img-container {
+        margin-inline: auto;
+    }
+
+    nav img {
+        padding-left: 0px;
+    }
+}
