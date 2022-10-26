@@ -224,13 +224,26 @@ form input {
 
     nav img {
         padding-left: 0px;
-    }
-
-    .hs-text p {
         margin-right: 1rem;
     }
 
     .form-title {
         font-size: 18px;
+    }
+
+    .input-container {
+        max-width: 300px;
+    }
+
+    form {
+        padding-inline: 1rem;
+    }
+
+    form input {
+        padding-left: 1rem;
+    }
+
+    button {
+        width: 300px;
     }
 }
