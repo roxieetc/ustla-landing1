@@ -28,8 +28,8 @@ button {
 }
 
 button:hover {
-    background-color: #D8D4CA;
-    border: 1px solid #D8D4CA;
+    background-color: #FFFFFF;
+    border: 1px solid #B27247;
     cursor: pointer;
     color: #B27247;
 }
@@ -123,6 +123,8 @@ form input {
     }
   }
 
+
+/* Macbook Pro 13" */
 @media screen and (max-width: 1300px) {
     h1 {
         font-size: 38px;
@@ -134,7 +136,7 @@ form input {
     }
 
     .main-content {
-        padding-top: 3rem;
+        padding-top: 2.5rem;
         padding-bottom: 0rem;
         margin-inline: 5rem;
     }
@@ -142,22 +144,24 @@ form input {
     form {
         padding-inline: 2rem;
         padding-block: 1rem;
+        min-width: 550px;
     }
 
     .form-title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .input-container {
-        max-width: 350px;
+        max-width: 400px;
     }
 
     form input {
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-block: .5rem;
+        padding-block: .75rem;
         margin-top: .5rem;
         width: 100%;
+        font-size: 14px;
     }
 
     .left-content {
@@ -170,10 +174,6 @@ form input {
 
     .hs-img img {
         max-height: 125px;
-    }
-
-    .hs-text {
-        margin-left: 5rem;
     }
 
     .hs-text p {
