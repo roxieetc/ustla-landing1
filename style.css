@@ -20,21 +20,21 @@ button {
     background-color: #B27247;
     color: white;
     border-radius: 50px;
-    width: 350px;
-    padding-block: .8rem;
+    width: 65%;
+    padding-block: 1.5rem;
     font-size: 20px;
     border: 1px solid #B27247;
 }
 
 button:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #B27247;
+    background-color: #D8D4CA;
+    border: 1px solid #D8D4CA;
     cursor: pointer;
     color: #B27247;
 }
 
 nav {
-    min-width: 103%;
+    min-width: 100%;
 }
 
 nav img {
@@ -125,6 +125,7 @@ form input {
 @media screen and (max-width: 1300px) {
     h1 {
         font-size: 38px;
+        margin-top: 1rem;
     }
 
     .lc-top {
@@ -133,16 +134,25 @@ form input {
 
     .main-content {
         padding-top: 3rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
         margin-inline: 5rem;
+    }
+
+    form {
+        padding-inline: 2rem;
+        padding-block: 1rem;
     }
 
     .form-title {
         font-size: 18px;
     }
 
+    .input-container {
+        max-width: 350px;
+    }
+
     form input {
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-right: 1rem;
         padding-block: .5rem;
         margin-top: .5rem;
@@ -150,20 +160,32 @@ form input {
     }
 
     .left-content {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
 
     .lc-top {
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
 
     .hs-img img {
         max-height: 125px;
     }
 
+    .hs-text {
+        margin-left: 5rem;
+    }
+
     .hs-text p {
         margin-top: 2rem;
         margin-right: 3rem;
+        font-size: 18px;
+    }
+
+    button {
+        width: 80%;
+        padding-block: .75rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
         font-size: 18px;
     }
 }
