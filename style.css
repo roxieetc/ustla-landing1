@@ -28,10 +28,10 @@ button {
 }
 
 button:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #B27247;
+    background-color: #98613c;
+    border: 1px solid #98613c;
     cursor: pointer;
-    color: #B27247;
+    color: #FFFFFF;
 }
 
 nav {
@@ -109,19 +109,83 @@ form input {
 
 /* ==================== RESPONSIVE DESIGN ==================== */
 
-@media screen and (max-width: 1860px) {
+@media screen and (max-width: 2500px) {
     h1 {
-        font-size: 42px;
+        margin-top: 1rem;
     }
-    
+
+    form {
+        padding-inline: 1rem;
+        padding-block: 3rem;
+        min-width: 700px;
+    }
+
     .form-title {
-        font-size: 22px;
+        font-size: 26px;
     }
 
     .main-content {
-        margin-inline: 5rem;
+        margin-inline: 15rem;
+        align-items: center;
+    }
+}
+
+/* Macbook Pro 16" */
+@media screen and (max-width: 1860px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    form {
+        padding-inline: 2rem;
+        padding-block: 2rem;
+        min-width: 650px;
+    }
+    
+    .form-title {
+        font-size: 24px;
+    }
+
+    .main-content {
+        margin-inline: 6rem;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    button {
+        width: 80%;
+        padding-block: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        font-size: 20px;
     }
   }
+
+/* Macbook Pro 14" */
+@media screen and (max-width: 1450px) {
+    .main-content {
+        padding-top: 2rem;
+    }
+
+    form {
+        padding-inline: 2rem;
+        padding-block: 2rem;
+        min-width: 525px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .lc-top {
+        max-width: 550px;
+        margin-bottom: 2rem;
+    }
+
+    .hs-img img {
+        max-height: 125px;
+    }
+}
 
 
 /* Macbook Pro 13" */
@@ -136,15 +200,15 @@ form input {
     }
 
     .main-content {
-        padding-top: 2.5rem;
+        padding-top: 0rem;
         padding-bottom: 0rem;
         margin-inline: 5rem;
     }
 
     form {
-        padding-inline: 2rem;
+        padding-inline: 1.5rem;
         padding-block: 1rem;
-        min-width: 550px;
+        min-width: 500px;
     }
 
     .form-title {
