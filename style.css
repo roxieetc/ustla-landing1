@@ -305,6 +305,10 @@ form input {
 }
 
 @media screen and (max-width: 500px) {
+    h1 {
+        font-size: 26px;
+    }
+    
     .nav-img-container {
         margin-inline: auto;
     }
@@ -315,7 +319,7 @@ form input {
     }
 
     .form-title {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .input-container {
@@ -324,6 +328,8 @@ form input {
 
     form {
         padding-inline: 1rem;
+        min-width: 350px;
+        margin-bottom: 2rem;
     }
 
     form input {
@@ -331,6 +337,23 @@ form input {
     }
 
     button {
-        width: 300px;
+        width: 250px;
+    }
+
+    .lc-bottom {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hs-img img {
+        max-height: 100px;
+        border: 2px solid white;
+    }
+
+    .hs-text p {
+        font-size: 16px;
+        text-align: right;
+        margin-right: 1rem;
     }
 }
